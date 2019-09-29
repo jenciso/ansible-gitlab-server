@@ -1,0 +1,7 @@
+- name: gitlab | server
+  remote_user: ansible
+  hosts: gitlab
+  roles:
+    - gitlab
+  tags:
+    - gitlab
